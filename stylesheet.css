@@ -1,1 +1,92 @@
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#index{
+    font-family: 'M PLUS 1p', sans-serif;
+    font:center;
+    background-image: url("artBlur-cut-1209519_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+*/
+/*background:linear-gradient(90deg,#FFFF66 0%,#FFFF66 50%,#CCFF66 50%,#CCFF66 100%);
+ 初期画面以外のbackground-colorは#CCFF99*/
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #002200;
+    font-family: 'M PLUS 1p', sans-serif;
+    opacity:0.9;
+    z-index: 100;
+}
+
+.header-right {
+    float: right;
+    transition:all 0.5s;
+}
+
+.header-right a{
+    display:block;
+    line-height:65px;
+    padding:0 25px 0 25px;
+    color:white;
+}
+
+.wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr 26px;
+    grid-template-rows: 1fr 26px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    height: 100vh;
+}
+
+.container {
+    padding: 0 px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title{
+    font-family: 'Zhi Mang Xing', cursive;
+}
+
+/*タイトルのアイコン*/
+.fas fa-edit:before{
+    font-family: 'FontAwesome 5 Free' ;
+    font-weight:900;
+    color:#002200;
+    content:'/f044';
+}
+
+.top-wrapper {
+    padding: 200px 0 100px 0;
+    font-size: 35px;
+    background-size: cover;
+    color:#002200;
+    text-align:center;
+}
+
+.top-wrapper p {
+    margin: 2% 0 0 0;
+    font-size: 45%;
+    text-align:center;
+}
+
+
+.btn{
+    display:inline-block;
+    background-color:#239b76;
+    padding:8px 24px 8px 24px;
+    margin-right:15px;
+    color:white;
+    display:inline-block;
+    opacity:1.0;
+}
