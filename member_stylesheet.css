@@ -1,0 +1,200 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  height: 60px;
+  width: 100%;
+  background-color: #002200;
+  /*position:fixed;
+  top:0; */
+  font-family: 'M PLUS 1p', sans-serif;
+  opacity:0.9;
+}
+
+.header-right {
+  float: right;
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+  transition:all 0.5s;
+}
+
+.header-right a{
+  display:block;
+  line-height:65px;
+  padding:0 25px 0 25px;
+  color:white;
+}
+
+#wrap{
+  padding: 1% 0;
+}
+
+.main-center{
+  width: 80%;
+  margin: 2% auto ;
+}
+
+.h2{
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.btn{
+  display:inline-block;
+}
+
+body{
+font-family: 'M PLUS 1p', sans-serif;
+font:center;
+/* バランスを考えて調節　→background:#CCFFCC; */
+background-image: url("file:///C:/Users/yuukiemuranaka/Desktop/html_page/artLineGreen-1209519_1920.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.btn_regist{
+  background-color: #239b76;
+  color:#ffffff;
+  font-size: 25px ;
+  width: 185px;
+  display:block;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/*会員登録画面（regist）*/
+#regist .form{
+  background-color: #CCFFCC;
+  padding: 20px 50px;
+}
+
+#regist .form dl dt{
+  width: 20%;
+  padding: 30px 0;
+  float: left;
+  clear: both;
+  font-size: 17px;
+}
+
+#regist .form dl dd{
+  padding: 3px 0;
+}
+
+#regist .form .id{
+  width: 25%;
+  height: 20%;
+  font-size: 15px;
+}
+
+#regist .form .name{
+  width: 25%;
+  height: 20%;
+  font-size: 15px;
+}
+
+#regist .form .pass{
+  width: 25%;
+  height: 20%;
+  font-size: 15px;
+}
+
+#regist .form .passConfirm{
+  width: 25%;
+  height: 20%;
+  font-size: 15px;
+}
+
+/*ここまで会員登録画面（regist）*/
+
+/*ここからイラスト登録画面（post）*/
+#post .form{
+  background-color: #CCFFCC;
+  padding: 20px 50px;
+}
+
+#post .form dl dt{
+  width: 20%;
+  padding: 30px 0;
+  float: left;
+  clear: both;
+  font-size: 17px;
+}
+
+#post .form dl dd{
+  padding: 3px 0;
+}
+
+
+#post .form .title{
+  width: 25%;
+  height: 20%;
+  font-size: 15px;
+}
+
+#post .form .comment{
+  width: 50%;
+  height: 150px;
+  font-size: 15px;
+}
+
+
+.top-wrapper {
+  padding: 180px 0 130px 0;
+  font-size: 40px;
+  background-color: #CCFFCC;
+  background-size: cover;
+  text-align:center;
+}
+
+.top-wrapper p {
+  margin: 2% 0 0 0;
+  font-size: 50%;
+  text-align:center;
+}
+
+.details{
+  background-color:#3b5998;
+  padding:8px 24px 8px 24px;
+  color:white;
+  display:inline-block;
+  opacity:1.0;
+}
+
+.reIllust{
+  background-color:#3b5998;
+  padding:6px 15px 3px 15px;
+  color:white;
+  display:inline-block;
+  opacity:1.0;
+}
+
+.backHome{
+  line-height: 0.5;
+  font-size:15px;
+}
+
+
+
+
+input{
+ width :400px;
+ margin-top :10px;
+ margin-bottom :30px;
+ padding:20px;
+ font-size:20%;
+ border:1px solid #dee7ec;
+}
+
+textarea{
+ float:left;
+ width:400px;
+ margin-top :10px;
+ margin-bottom :30px;
+ padding:20px;
+ font-size:18px;
+ border:1px solid #dee7ec;
+}
